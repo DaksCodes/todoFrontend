@@ -1,5 +1,5 @@
 import axios from 'axios';
-const baseURL="http://localhost:5000"
+const baseURL="https://todobackend-f5nu.onrender.com/"
 const getAllToDo=(setToDo)=>{
     axios.get(baseURL)
     .then(({data})=>{
